@@ -39,7 +39,7 @@ def main(argv):
             if opt=='-k' :
                 keyfile_name = val
     except:
-        print('usage: cdr_receiver.py -p <port> [-c <certfile path>] [-k <keyfile path>]')
+        print('usage: app.py -p <port> [-c <certfile path>] [-k <keyfile path>]')
         sys.exit(2)
 
     server_address = ('', int(port))
